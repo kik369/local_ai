@@ -37,6 +37,16 @@ AI sandbox environment for safe execution of AI-generated code.
 -   **Open WebUI**: http://localhost:3000
 -   **OpenHands**: http://localhost:3993
 
+## Managing Models
+
+To connect to the Ollama container and manage models:
+
+```bash
+docker exec -it ollama zsh
+```
+
+Once connected, you can use Ollama CLI commands to pull, list, and manage models.
+
 ## Data Storage
 
 All data is persisted in local directories:
