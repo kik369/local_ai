@@ -2,7 +2,6 @@ FROM ollama/ollama:latest
 
 USER root
 
-# Install Zsh, Git, Curl, locales
 RUN apt-get update && apt-get install -y \
     zsh git curl locales wget
 

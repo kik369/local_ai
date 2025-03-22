@@ -9,7 +9,7 @@ services:
         volumes:
             - ./ollama_data:/root/.ollama
             - ~/.zshrc:/root/.zshrc
-            - ~/.zsh_history:/root/.zsh_history
+            - ~/.ollama_zsh_history:/root/.zsh_history
             - ~/.oh-my-zsh:/root/.oh-my-zsh
         restart: always
 
